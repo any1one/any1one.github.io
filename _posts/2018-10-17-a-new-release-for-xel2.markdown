@@ -2,7 +2,7 @@
 layout: post
 title:  "Part 1: Your First XEL Program"
 date:   2018-10-19 22:01:43 +0530
-categories: xel update
+categories: ["xel", "dev"]
 author: "any1"
 ---
 # Part 1: Your First XEL Program

@@ -6,19 +6,19 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Hemang Kumar
-email: hemangsk@gmail.com
+title: any1's logs
+email: ''
 
 #write html inside the double quotes to display in jumbotron
-description: "<h3>any1</h3><h1>DevJournal</h1><h3>Awesome Jekyll Theme for Developers!</h3>Hope you like it!"
+description: "<h1>any1's logs</h1>"
 
 
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://hemangsk.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://any1one.github.io" # the base hostname & protocol for your site
+twitter_username: any1ops
+github_username:  any1one
 
 # Build settings
 markdown: kramdown
-permalink: :categories-:year-:month-:day-:title:output_ext
+permalink: :categories/:year-:month-:day-:title:output_ext

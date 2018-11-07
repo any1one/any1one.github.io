@@ -2,7 +2,7 @@
 layout: post
 title:  "A New Release For XEL"
 date:   2018-10-17 22:01:43 +0530
-categories: xel update
+categories: ["xel"]
 author: "any1"
 ---
 # A New Release For XEL
