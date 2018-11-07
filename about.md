@@ -1,87 +1,19 @@
 ---
 layout: page
-title: About
+title: About Trio
 permalink: /about/
 ---
-<div class="man-title">
-  UP AND RUNNING WITH DevJournal
-</div>
-<div class="manual manual-title">
-  Posting
-  </div>
-<p>  <div class="manual-content">
 
-      - Create a .markdown file inside <code class="highlighter-rouge">_posts</code> folder.<br />
-      - Name the file according to the format YY-MM-DD-[short name for your post].<br />
-      &nbsp;&nbsp;&nbsp;<code>2016-03-30-i-love-design.markdown</code><br />
-      - Write the <a href="jekyll">Front Matter</a> and content in the file.<br><br>
-      <div class="example">
+This [Jekyll](http://jekyllrb.com/) theme was crafted with <3 by [Ankur Gupta](https://github.com/ankur-gupta) using inspiration from these sources:
 
-        <div class="highlight">
-        <pre>
-          ---
-          layout: post | default | page
-          title:  String<span class="hint"> Post Title</span>
-          date:   Time Stamp
-          categories: String | Array of Strings<span class="hint"> Category / Categories </span>
-          ---
-        </pre>
-        </div>
+* [Solo](http://chibicode.github.io/solo/) theme by [Shu Uesugi](https://github.com/chibicode)
+* [Lanyon](http://lanyon.getpoole.com/) & [Hyde](http://hyde.getpoole.com/)themes by [Mark Otto](https://github.com/mdo).
+* [Pixyll](http://pixyll.com/) theme by [John Otander](https://github.com/johnotander)
 
-      </div>
-      <div class="example">
-        <div class="highlight">
-        <pre>
-        ---
-        layout: post
-        title:  "The One with the Blackout"
-        date:   2016-03-30 19:45:31 +0530
-        categories: ["life", "friends"]
-        ---
-      </pre>
-    </div>
-      </div>
+Checkout the [Github repository](https://github.com/ankur-gupta/trio) to download it, request a feature, report a bug, or contribute. It's free, and open source ([MIT](http://opensource.org/licenses/MIT)).
 
+Many thanks to the following:
 
-
-</p>
-</div>
-<p><br /></p>
-
-  <div class="manual manual-title">
-  Create Pages
-  </div>
-<p>  <div class="manual-content">
-
-      - Create a .md file in the root directory.<br />
-      - Name the file with the desired page link name.<br />
-        &nbsp;&nbsp;&nbsp;<code>about.md</code><br />
-          &nbsp;&nbsp;&nbsp;<code>design.md</code><br />
-      - Write the <a href="jekyll">Front Matter</a> and content in the file.<br><br>
-      <div class="highlight">
-
-
-        <pre>
-          ---
-          layout: page
-          title: String <span class="hint">Title of the webpage</span>
-          permalink: / String / <span class="hint">Permalink for the webpage</span>
-          tagline: String <span class="hint">Optional DevJournal Feature : Tagline for the page</span>
-          ---
-      </pre><br />
-    </div><br>
-      <div class="highlight">
-
-        <pre>
-        ---
-        layout: page
-        title:  "Science"
-        permalink:   /science/
-        tagline : "Humanity is overrated."
-        ---
-      </pre>
-      </div>
-
-
-  </div>
-</p>
+* [Jekyll](http://jekyllrb.com)
+* [Bourbon](http://bourbon.io/)
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome)

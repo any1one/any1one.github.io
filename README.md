@@ -1,89 +1,48 @@
-If there's any issue you are facing in setting up DevJournal theme, I'm there for you. Just create an issue in this repository (http://github.com/hemangsk/DevJournal), (https://help.github.com/articles/creating-an-issue/) and I'll get back to you asap. :smile: :+1:<br>
+# Trio
 
-![alt-tag](https://farm8.staticflickr.com/7062/26385542743_1c7e6b8d9e_o.png) 
+Trio is a simple, content-focused, responsive, mobile-friendly [Jekyll](http://jekyllrb.com/) theme. Trio comes with support for these things out-of-the-box:
 
-![alt-tag](https://farm8.staticflickr.com/7320/26385629583_eac6861c48_o.png)
+* RSS feed
+* 404 page
+* Markdown syntax highlighting, fenced code blocks, tables, GitHub gists, blockquotes
+* Post sharing buttons
+* Paginated list of posts
+* Disqus integration
+* Full-text search 
 
+This [Jekyll](http://jekyllrb.com/) theme was crafted with <3 by [Ankur Gupta](https://github.com/ankur-gupta). Checkout the [demo](http://perfectlyrandom.org/trio/).
 
-![alt-tag](https://farm8.staticflickr.com/7300/26895705412_d6365b9a14_o.png)
+### Thanks 
+Trio was created using inspiration and partial code from these sources:
 
+* [Solo](http://chibicode.github.io/solo/) theme by [Shu Uesugi](https://github.com/chibicode) - HTML/CSS for posts.
+* [Lanyon](http://lanyon.getpoole.com/) & [Hyde](http://hyde.getpoole.com/) themes by [Mark Otto](https://github.com/mdo) - color themes.
+* [Pixyll](http://pixyll.com/) theme by [John Otander](https://github.com/johnotander) - design principles, some HTML/CSS.
+* [Bourbon Refills](http://refills.bourbon.io/) - many HTML/CSS snippets.
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome) - awesome icons.
+* [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search) by [christian-fei](https://github.com/christian-fei) - full-text search.
 
+A big thank you to all of them. I have added links to their licenses wherever I substantially copied their code.
 
-![alt-tag](https://farm8.staticflickr.com/7370/26956762406_cbfa7a2139_o.png)
+### Color Themes
+Trio comes with nine color themes (1 default + 8 from [Lanyon Color Themes](https://github.com/poole/lanyon)). These colors are listed in `_sass/_colors.scss`. To change the color theme, simply change the `$theme-color` variable in `_sass/_colors.scss`:
 
-#### To create a new post :sunglasses:
-
-- Create a .markdown file inside _posts folder.
-- Name the file according to the standard jekyll format.
+```scss
+$theme-color: $base-08; /* Red */
 ```
-   2016-03-30-i-love-design.markdown
-```
-- Write the Front Matter and content in the file.
-    ```
-          ---
-          layout: post | default | page
-          title:  String Post Title
-          date:   Time Stamp
-          categories: String | Array of Strings Category / Categories 
-          ---
-    ```
-    
-    ```
-        ---
-        layout: post
-        title:  "The One with the Blackout"
-        date:   2016-03-30 19:45:31 +0530
-        categories: ["life", "friends"]
-        ---
-    ```  
+
+This is an example of the red/`base-08` color theme.
+
+![Trio with red color theme](https://cloud.githubusercontent.com/assets/7110058/9712293/858a2090-54fe-11e5-8165-e16d3b2d9efd.png)
+
+### Script to create favicons
+I have written a small [bash script](https://github.com/ankur-gupta/trio/blob/master/create-favicon.sh) that creates favicons using [imagemagick's](http://www.imagemagick.org) `convert`. You can modify the script to change colors and the lettering. See [`_layouts/default.html`](https://github.com/ankur-gupta/trio/blob/master/_layouts/default.html#L55) for the HTML that specifies icons for various vendors.
 
 
-![alt-tag](https://farm8.staticflickr.com/7660/26895189602_170af0a783_o.png)
-![alt-tag](https://farm8.staticflickr.com/7594/26385450183_37116c6d32_o.png)
+### Issues
+This theme should be ready for use. I am not an expert in SCSS and the current code might be superfluous or overkill. See [issues](https://github.com/ankur-gupta/trio/issues) for future improvements. Feel free to add your own. 
 
 
-#### Create new pages, such a breeze! :smile:
-- Create a .md file in the root directory.
-- Name the file with the desired page link name.
-```
-   about.md
-```
-```
-   design.md
-```
-- Write the Front Matter and content in the file.
-```
-          ---
-          layout: page
-          title: String Title of the webpage
-          permalink: / String / Permalink for the webpage
-          tagline: String Optional DevJournal Feature : Tagline for the page
-          ---
-```      
-```
-        ---
-        layout: page
-        title:  "Science"
-        permalink:   /science/
-        tagline : "Humanity is overrated."
-        ---
-```      
-
-![alt-tag](https://farm8.staticflickr.com/7124/26895188812_65218d8652_o.png)
-
-
-That's all folks.
-
->Super Flexible, Minimal, Text Based jekyll theme for the kickass geek :sunglasses:
-
-#### It'd be really awesome if ,<br>
-1.  You wish to create some new feature and would like to integrate those in DevJournal. Pull requests are most welcome!
-2.  Consider opening issues if you find bugs or feature requests.
-
-Just so you know, the license type is MIT.
-
-
->Its' all about being community driven.  :bus: :bus: :dash:
-
-Have a great day!  :smile: :smile: :smiley:
+### License
+Open sourced under MIT License
 
