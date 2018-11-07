@@ -21,5 +21,4 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-destination: .
 permalink: :categories-:year-:month-:day-:title:output_ext
