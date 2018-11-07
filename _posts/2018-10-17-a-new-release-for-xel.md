@@ -5,7 +5,7 @@ date:   2018-10-17 22:01:43 +0530
 categories: ["xel"]
 author: "any1"
 ---
-# A New Release For XEL
+# A New Release For XEL !
 
 Alright guys. We have awesome news for you.
 
