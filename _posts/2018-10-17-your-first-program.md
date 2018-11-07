@@ -5,7 +5,7 @@ date:   2018-10-19 22:01:43 +0530
 categories: ["xel", "dev"]
 author: "any1"
 ---
-# Part 1: Your First XEL Program
+# Part 1: Your First XEL Program !
 ## Quick Introduction
 This tutorial is designed for software programmers with a need to understand the ePL programming language starting from scratch. You will gain enough knowledge from where you can take yourself to a higher level of expertise. Let us give you a brief overview of what ePL is: ePL is a programming language which was designed explicitly for coding algorithms to be executed on the XEL computation node network. Its syntax is very similar to the C programming languages. However, since nodes on the XEL network download and execute code from potentially dangerous sources a few adaptations were necessary to ensure that code written in ePL can cause no harm to the system it is executed on. Furthermore, since task distribution and verification is done in a decentralized fashion (all nodes which meet a minimum system requirement in terms of memory and CPU power must be able to verify the algorithms’ results in a similar amount of time) is it designed to run in a resource-limited VM. Furthermore, ePL has a slightly modified memory management (and instruction set) which ensures that every node can assess how much memory the program will consume and when it will terminate before execution. This avoids unpredictable behavior such as out of memory errors and the halting problem. However, before we get too deep into the little details, you should make sure you have installed all components as described in the "Installation" section.
 
@@ -18,7 +18,7 @@ array_uint 1000;
 
 function main {
     verify();
-} 
+}
 
 function primetest {
     u[1] = 0;
@@ -125,7 +125,7 @@ Before you can understand what is going on here, it is essential that you unders
 
 ```
 // hash32[] is a random hash value provided by the protocol
-// mult32[] is other information such as round and iteration 
+// mult32[] is other information such as round and iteration
 
 // Randomize Inputs m[0]-m[9]
 for (i = 0; i < 10; i++) {
