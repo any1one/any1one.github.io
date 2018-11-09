@@ -1,7 +1,7 @@
 # Site wide configuration
 title: any1's logs
 description: 'A simple content-focused Jekyll theme'
-url: https://any1one.github.io
+url: https://blog.any1.xyz
 date_format: '%B %d, %Y'
 fort_awesome_icon: 'cog fa-spin'
 
